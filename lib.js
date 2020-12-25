@@ -1,4 +1,4 @@
-module.exports = function(d) {
+export const d2d = function(d) {
   if (typeof d !== 'number' || isNaN(d)) {
     return -1;
   }
